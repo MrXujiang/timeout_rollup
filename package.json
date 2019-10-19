@@ -1,12 +1,12 @@
 {
-  "name": "@xk/timeout",
+  "name": "@alex_xu/time",
   "version": "1.0.0",
-  "description": "common use js timeout lib",
-  "main": "dist/timeout.cjs.js",
-  "module": "dist/timeout.esm.js",
-  "browser": "dist/timeout.umd.js",
-  "author": "",
-  "homepage": "",
+  "description": "common use js time lib",
+  "main": "dist/tool.cjs.js",
+  "module": "dist/time.esm.js",
+  "browser": "dist/time.umd.js",
+  "author": "alex_xu",
+  "homepage": "https://github.com/MrXujiang/timeout_rollup",
   "keywords": [
     "tools",
     "javascript",
@@ -14,12 +14,12 @@
     "time"
   ],
   "dependencies": {
-    "core-js": "^2.6.10",
-    "ms": "^2.0.0"
+    "core-js": "^2.6.10"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
+    "@babel/plugin-transform-runtime": "^7.6.2",
     "eslint": "^6.5.1",
     "rollup": "^1.20.0",
     "rollup-plugin-babel": "^4.3.3",

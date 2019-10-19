@@ -1,0 +1,7 @@
+# Browsers that we support
+# equal to config in package.json [ "browserslist": "> 5%, current node, not dead" ]
+# see the doc: https://github.com/browserslist/browserslist
+
+> 5%
+current node
+not dead
